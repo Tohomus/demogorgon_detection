@@ -1,0 +1,22 @@
+# Dependencies & Build Artifacts
+node_modules
+/src/frontend/dist
+.venv
+venv
+__pycache__
+*.pyc
+
+# Critical: Machine Learning Artifacts (Do NOT commit these!)
+*.h5
+*.pkl
+*.pt
+*.onnx
+*.safetensors
+/data/
+/datasets/
+
+# Configuration and IDE Files
+.env
+.env.*.local
+.vscode/
+.DS_Store
